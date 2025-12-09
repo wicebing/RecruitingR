@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>臺大醫院新竹臺大分院 - 急診醫學部 R1 住院醫師招募</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        .bg-medical {
+            background-color: #f8fafc;
+            background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-medical text-slate-700">
+
+    <!-- Navbar -->
+    <nav class="bg-white/90 backdrop-blur shadow-sm sticky top-0 z-50 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-700 text-white p-1.5 rounded font-bold text-xl tracking-tighter">NTUH</div>
+                <div class="flex flex-col leading-none">
+                    <span class="font-bold text-lg text-slate-800">新竹臺大分院</span>
+                    <span class="text-xs text-slate-500 font-medium">急診醫學部</span>
+                </div>
+            </div>
+            <a href="#contact" class="hidden sm:flex bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-blue-800 transition shadow-md items-center gap-2">
+                <i data-lucide="send" class="w-4 h-4"></i> 投遞履歷
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-white overflow-hidden">
+        <div class="absolute inset-0">
+            <!-- Background Image: Focus on mentorship/young doctors -->
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=2864&auto=format&fit=crop" alt="Medical Team Mentorship" class="w-full h-full object-cover opacity-10">
+            <div class="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent"></div>
+        </div>
+        
+        <div class="relative max-w-6xl mx-auto px-4 py-16 sm:py-24 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-3/5 space-y-6">
+                <div class="inline-flex items-center space-x-2 bg-orange-50 text-orange-700 px-4 py-1.5 rounded-full text-sm font-semibold border border-orange-100 shadow-sm animate-pulse">
+                    <span class="relative flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-orange-500"></span>
+                    </span>
+                    <span>115年度 住院醫師 (R1) 招募中</span>
+                </div>
+                
+                <h1 class="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
+                    站在巨人的肩膀<br>
+                    開啟您的 <span class="gradient-text">醫療斜槓人生</span>
+                </h1>
+                
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    除了紮實的急診專科訓練，我們更重視您的視野與格局。
+                    從<strong>台北總院訓練</strong>到<strong>國際學術舞台</strong>，從<strong>智慧醫療</strong>到<strong>極光攝影</strong>。
+                    在這裡，我們不只培養急診醫師，更培養擁有獨特魅力的醫療職人。
+                </p>
+
+                <div class="flex flex-wrap gap-3 pt-2">
+                    <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-lg text-sm font-medium flex items-center gap-1 border border-blue-100">
+                        <i data-lucide="building" class="w-4 h-4"></i> 每年 6 個月台北總院訓練
+                    </span>
+                    <span class="px-3 py-1 bg-purple-50 text-purple-700 rounded-lg text-sm font-medium flex items-center gap-1 border border-purple-100">
+                        <i data-lucide="plane" class="w-4 h-4"></i> 國際會議發表
+                    </span>
+                    <span class="px-3 py-1 bg-green-50 text-green-700 rounded-lg text-sm font-medium flex items-center gap-1 border border-green-100">
+                        <i data-lucide="trophy" class="w-4 h-4"></i> 多元斜槓導師
+                    </span>
+                </div>
+            </div>
+
+            <!-- Focus Card -->
+            <div class="md:w-2/5 w-full">
+                <div class="glass-card p-6 rounded-2xl shadow-2xl border-t-4 border-orange-500 relative overflow-hidden group hover:-translate-y-1 transition duration-300">
+                    <div class="absolute -right-6 -top-6 w-24 h-24 bg-orange-100 rounded-full opacity-50 blur-xl"></div>
+                    
+                    <h3 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                        <i data-lucide="rocket" class="text-orange-500"></i> 為 R1 量身打造的起點
+                    </h3>
+                    
+                    <div class="space-y-5">
+                        <div class="flex gap-4 items-start">
+                            <div class="bg-blue-100 p-2 rounded-lg text-blue-600 mt-1">
+                                <i data-lucide="map-pin" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">雙核心視野</h4>
+                                <p class="text-sm text-slate-600">新竹科技城 + 台北首都圈，同時掌握醫學中心與多樣化病人族群經驗。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-4 items-start">
+                            <div class="bg-indigo-100 p-2 rounded-lg text-indigo-600 mt-1">
+                                <i data-lucide="mic-2" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">直通國際舞台</h4>
+                                <p class="text-sm text-slate-600">R1 即由主治醫師手把手指導，帶您出國參加國際學術會議，起步即領先。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-16 space-y-24">
+
+        <!-- Training Structure Section -->
+        <section class="relative">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-800">只有這裡，能給您的訓練格局</h2>
+                <p class="text-slate-500 mt-2">不只是一份工作，而是一場開拓視野的旅程</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-3 opacity-5">
+                        <i data-lucide="train-track" class="w-40 h-40"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4 flex items-center gap-2">
+                        <i data-lucide="arrow-left-right" class="text-blue-600"></i> 每年 6 個月台北總院培訓
+                    </h3>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        我們打破地域限制，讓您在住院醫師訓練期間，每年擁有長達半年的時間在 <span class="font-bold text-slate-800">臺大醫院台北總院</span> 接受訓練。
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i data-lucide="check-circle-2" class="text-green-500 w-5 h-5"></i>
+                            <span>接觸急診醫學重鎮的罕見病例</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i data-lucide="check-circle-2" class="text-green-500 w-5 h-5"></i>
+                            <span>建立總院人脈與學術連結</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i data-lucide="check-circle-2" class="text-green-500 w-5 h-5"></i>
+                            <span>體驗首都醫學中心的快節奏挑戰</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-2xl shadow-lg text-white relative overflow-hidden">
+                     <div class="absolute top-0 right-0 p-3 opacity-10">
+                        <i data-lucide="globe-2" class="w-40 h-40"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 flex items-center gap-2">
+                        <i data-lucide="plane-takeoff" class="text-blue-300"></i> 從 R1 開始的國際學術路
+                    </h3>
+                    <p class="text-blue-100 mb-6 leading-relaxed">
+                        不要等到升上 VS 才開始看世界。我們相信年輕人的潛力，透過資深導師的帶領，讓您在 R1 時期就有機會登上國際舞台。
+                    </p>
+                    <div class="bg-white/10 backdrop-blur rounded-lg p-4 border border-white/20">
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="quote" class="text-blue-300 shrink-0"></i>
+                            <p class="italic text-sm text-blue-50">
+                                「站在巨人的肩膀上，我們不僅教你如何看病，更教你如何向世界展示你的發現。」
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slash Mentors Section (The Highlights) -->
+        <section>
+            <div class="text-center mb-16">
+                <span class="text-orange-600 font-bold tracking-wider uppercase text-sm">Our Superstars</span>
+                <h2 class="text-3xl font-bold text-slate-800 mt-2">臥虎藏龍的導師陣容</h2>
+                <p class="text-slate-500 mt-2">在這裡，您會發現醫學與生活的無限可能。想學什麼？我們都有大神帶你飛。</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1: Travel Medicine / Aurora -->
+                <div class="group bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-xl transition duration-300 hover:-translate-y-1">
+                    <div class="bg-purple-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 text-purple-600 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i data-lucide="camera" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-2">旅遊醫學 & 極光攝影師</h3>
+                    <p class="text-sm text-slate-600">
+                        不只是旅遊醫學專家，更是追逐極光的攝影職人。教您如何在忙碌的臨床工作中，依然保有探索世界的熱情與眼光。
+                    </p>
+                </div>
+
+                <!-- Card 2: Communication -->
+                <div class="group bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-xl transition duration-300 hover:-translate-y-1">
+                    <div class="bg-pink-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 text-pink-600 group-hover:bg-pink-600 group-hover:text-white transition">
+                        <i data-lucide="message-circle-heart" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-2">醫療溝通大師</h3>
+                    <p class="text-sm text-slate-600">
+                        急診不僅是醫術的戰場，更是溝通的藝術。跟隨大師學習化解衝突、安撫人心的說話之道，讓您的臨床之路更順遂。
+                    </p>
+                </div>
+
+                <!-- Card 3: Smart Medicine -->
+                <div class="group bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-xl transition duration-300 hover:-translate-y-1">
+                    <div class="bg-cyan-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 text-cyan-600 group-hover:bg-cyan-600 group-hover:text-white transition">
+                        <i data-lucide="cpu" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-2">智慧醫療先驅</h3>
+                    <p class="text-sm text-slate-600">
+                        身處新竹科技城，我們走在 AI 醫療的最前線。學習如何運用大數據與人工智慧輔助決策，成為未來的醫療科技人才。
+                    </p>
+                </div>
+
+                <!-- Card 4: Simulation -->
+                <div class="group bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-xl transition duration-300 hover:-translate-y-1">
+                    <div class="bg-yellow-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 text-yellow-600 group-hover:bg-yellow-600 group-hover:text-white transition">
+                        <i data-lucide="users" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-2">金牌擬真團隊</h3>
+                    <p class="text-sm text-slate-600">
+                        每年獲獎無數的擬真(Simulation)教學團隊。透過高逼真度的情境演練，強化團隊合作與危機處理能力，讓您臨危不亂。
+                    </p>
+                </div>
+
+                <!-- Card 5: Pre-hospital / EMS -->
+                <div class="group bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-xl transition duration-300 hover:-translate-y-1">
+                    <div class="bg-red-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 text-red-600 group-hover:bg-red-600 group-hover:text-white transition">
+                        <i data-lucide="ambulance" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-2">院前救護 EMS</h3>
+                    <p class="text-sm text-slate-600">
+                        走出醫院，深入現場。我們擁有完善的院前救護指導機制，讓您掌握急救鏈的最前線，成為守護城市的關鍵力量。
+                    </p>
+                </div>
+
+                <!-- Card 6: EBM -->
+                <div class="group bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-xl transition duration-300 hover:-translate-y-1">
+                    <div class="bg-emerald-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition">
+                        <i data-lucide="book-open-check" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-2">EBM 實證醫學</h3>
+                    <p class="text-sm text-slate-600">
+                        每次參賽、每年獲獎的 EBM 團隊。培養您嚴謹的邏輯思維與文獻查證能力，用證據說話，做最科學的醫療決策。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA / Footer -->
+        <section id="contact" class="text-center space-y-8 pb-12 pt-8">
+            <div class="max-w-3xl mx-auto bg-slate-50 p-8 md:p-12 rounded-3xl border border-slate-200">
+                <h2 class="text-3xl font-bold text-slate-800 mb-4">準備好開啟您的斜槓醫學人生了嗎？</h2>
+                <p class="text-slate-600 mb-8 text-lg">
+                    在新竹臺大分院，我們給您的不只是專科證書，而是一把開啟未來的鑰匙。<br>
+                    <span class="text-orange-600 font-bold">誠摯邀請您加入我們的團隊！</span>
+                </p>
+                
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 inline-block w-full max-w-lg">
+                    <p class="text-slate-500 mb-2 text-sm">請將履歷與相關資料寄至</p>
+                    
+                    <div class="flex items-center justify-center gap-3 mb-6 bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <i data-lucide="mail" class="text-slate-500"></i>
+                        <span class="font-mono text-xl font-bold select-all text-slate-800" id="email-text">G01261@hch.gov.tw</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 gap-4">
+                        <button onclick="copyEmail()" class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition transform active:scale-95 shadow-md flex justify-center items-center gap-2">
+                            <i data-lucide="copy"></i> 複製 Email 投遞履歷
+                        </button>
+                    </div>
+                    <p class="mt-4 text-xs text-slate-400">急診醫學部 專人處理</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-slate-200 pt-8 mt-12">
+                <p class="text-xs text-slate-400">國立臺灣大學醫學院附設醫院新竹臺大分院 Emergency Department © 2025</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Copy Email Function
+        function copyEmail() {
+            const email = document.getElementById('email-text').innerText;
+            // Use execCommand based fallback directly for iframe environments
+            fallbackCopyTextToClipboard(email);
+        }
+
+        function fallbackCopyTextToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            
+            // Ensure it's part of the DOM but invisible
+            textArea.style.position = "fixed";
+            textArea.style.left = "0";
+            textArea.style.top = "0";
+            textArea.style.opacity = "0";
+            
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) showSuccess();
+                else console.error('Copy failed.');
+            } catch (err) {
+                console.error('Fallback: Oops, unable to copy', err);
+            }
+            
+            document.body.removeChild(textArea);
+        }
+
+        function showSuccess() {
+            const btn = document.querySelector('button');
+            const originalContent = btn.innerHTML;
+            
+            btn.innerHTML = '<i data-lucide="check"></i> 已複製';
+            lucide.createIcons();
+            btn.classList.remove('bg-blue-700', 'hover:bg-blue-800');
+            btn.classList.add('bg-green-600', 'hover:bg-green-700');
+            
+            setTimeout(() => {
+                btn.innerHTML = '<i data-lucide="copy"></i> 複製 Email 投遞履歷';
+                lucide.createIcons();
+                btn.classList.add('bg-blue-700', 'hover:bg-blue-800');
+                btn.classList.remove('bg-green-600', 'hover:bg-green-700');
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
